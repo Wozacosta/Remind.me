@@ -1,3 +1,15 @@
+# Remind.me
+
+React-native project, testing was done only on Android devices.
+To the core, a simple todo app done whilst following https://frontendmasters.com/courses/react-native
+While the course's app ditches the use of a json-server, this app stills uses it. It also includes the other basic features expected from a todo app.
+
+To test the app, make sure to run : 
+`json-server --watch db.json --port 5000`
+and to adjust the `MY_IP` variable in `src/Todos.js` to your local IP (if testing on a physical device, otherwise `localhost` should work just fine on an emulator).
+
+------------------
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
