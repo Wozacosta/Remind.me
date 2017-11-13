@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "name": "push updates",
+      "done": false,
+      "id": 1
+    },
+    {
+      "name": "lint code",
+      "done": false,
+      "id": 2
+    }
+  ]
+}
